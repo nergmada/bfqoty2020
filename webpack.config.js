@@ -32,7 +32,11 @@ module.exports = env => {
                 { test: /\.yaml$/, exclude: /node_modules/, use: ["json-loader", "yaml-loader"] }
             ]
         },
-        plugins: [],
+        plugins: [
+            new CopyPlugin([
+                './.env'
+            ]),
+        ],
     },
     {
         name: 'big-fat-quiz-web-client',
