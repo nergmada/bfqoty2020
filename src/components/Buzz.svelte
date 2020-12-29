@@ -3,13 +3,12 @@
     import * as assets from 'assets';
     let name = null;
     $player.addListener('buzzed', data => {
-        console.log("buzz call received");
-        console.log(assets);
         const audio = new Audio(assets[data.sound]);
-        audio.play();
-        setTimeout(() => {
-            audio.pause();
-        }, 3000);
+        audio.play().then(v => {
+            setTimeout(() => {
+                audio.pause();
+            }, 3000);
+        });
         name = data.name;
         setTimeout(() => {
             name = null;
