@@ -16,7 +16,7 @@ export default async function(data, socket, io) {
     if (get(blockBuzzer)) return;
     blockBuzzer.set(true);
     
-    const sound = Object.keys(sounds).includes(data.name) ? sounds[data.name] : 'buzz.mp3';
+    const sound = Object.keys(sounds).includes(data.name) ? sounds[data.name] : 'buzz';
 
     io.emit('buzzed', {
         ...data,

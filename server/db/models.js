@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 mongoose.Promise = Promise;
 console.log(`mongodb://${process.env.DBHOST ? process.env.DBHOST : 'localhost'}:27017/bfqoty2020`);
 mongoose.connect(
-    `mongodb://${process.env.DBHOST}:27017/bfqoty2020`, { useNewUrlParser: true, useUnifiedTopology: true });
+    `mongodb://${process.env.DBHOST ? process.env.DBHOST : 'localhost'}:27017/bfqoty2020`, { useNewUrlParser: true, useUnifiedTopology: true });
 
 import { questionSchema, playerSchema } from './schema';
 
