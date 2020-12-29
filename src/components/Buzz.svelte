@@ -1,14 +1,15 @@
 <script>
     import { player } from 'lib/store';
-
+    import * as assets from 'assets';
     let name = null;
     $player.addListener('buzzed', data => {
         console.log("buzz call received");
-        const audio = new Audio(`./assets/${data.sound}`);
+        console.log(assets);
+        const audio = new Audio(assets[data.sound]);
         audio.play();
         setTimeout(() => {
             audio.pause();
-        }, 1000);
+        }, 3000);
         name = data.name;
         setTimeout(() => {
             name = null;

@@ -5,13 +5,18 @@ import SocketIO from 'socket.io';
 
 import initialise from './statup';
 import * as socketsHandlers from './sockets';
+import compression from 'compression';
+import cors from 'cors';
 
 async function start() {
     await initialise();
 
     //Make the express handler
     const app = express();
-    
+    app.use(compression({
+        level: 9,
+    }))
+    app.use(cors());
     //Create a server with the express handler attached
     const server = createServer(app);
     

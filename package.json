@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "rm -rf ./build && npx webpack --watch",
-    "serve": "cd build && nodemon server.js"
+    "serve": "cd build && nodemon server.js",
+    "build": "rm -rf ./build && npx webpack --env.MODE=production"
   },
   "author": "",
   "license": "ISC",
@@ -18,12 +19,15 @@
     "@babel/preset-env": "^7.12.11",
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "compression": "^1.7.4",
     "compression-webpack-plugin": "^6.1.1",
     "copy-webpack-plugin": "^5.1.2",
+    "cors": "^2.8.5",
     "css-loader": "^5.0.1",
     "express": "^4.17.1",
     "express-static-gzip": "^2.1.0",
     "extract-css-chunks-webpack-plugin": "^4.9.0",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
     "install": "^0.13.0",
     "json-loader": "^0.5.7",
@@ -37,6 +41,7 @@
     "style-loader": "^2.0.0",
     "svelte": "^3.31.0",
     "svelte-loader": "^2.13.6",
+    "url-loader": "^4.1.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "yaml": "^1.10.0",

@@ -10,7 +10,7 @@ module.exports = env => {
     const dev = mode === 'development';
     return [{
         name: 'tryal-ai-web-server',
-        mode,
+        mode: 'development',
         target: 'node',
         entry: './server/index.js',
         output: {
@@ -33,9 +33,6 @@ module.exports = env => {
             ]
         },
         plugins: [],
-        optimization: {
-            usedExports: true,
-        },
     },
     {
         name: 'big-fat-quiz-web-client',
@@ -53,7 +50,8 @@ module.exports = env => {
                 //Src links
                 components: path.resolve('src', 'components'),
                 styles: path.resolve('src', 'styles'),
-                lib: path.resolve('src', 'lib')
+                lib: path.resolve('src', 'lib'),
+                assets: path.resolve('src', 'assets')
             },
             extensions: ['.mjs', '.js', '.svelte'],
             mainFields: ['svelte', 'browser', 'module', 'main']
@@ -100,6 +98,16 @@ module.exports = env => {
                         'sass-loader',
                     ],
                 },
+                {
+                    test: /\.mp3$/i,
+                    use: [{
+                        loader: 'url-loader',
+                        options: {
+                            limit: 1000000,
+                            name: 'assets/[hash]-[name].[ext]'
+                        }
+                    }],
+                }
             ]
         },
         plugins: [

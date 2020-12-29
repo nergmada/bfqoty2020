@@ -7,7 +7,8 @@ import {
     getBanker, 
     getBankTier,
     bankTotal,
-    getBankTotal, } from 'server/store';
+    getBankTotal,
+    getLanguage } from 'server/store';
 
 export default async function(data, socket, io) {
     await getOrAddPlayer(data.name);
@@ -21,10 +22,16 @@ export default async function(data, socket, io) {
         socket.emit('bank-tier', v);
     })
     bankTotal.subscribe(v => {
-        socket.emit('bank-total', v);
+        socket.emit('bank-total', {
+            total: v,
+            language: getLanguage() 
+        });
     })
     socket.emit('bank-tier', getBankTier());
     socket.emit('question', getCurrent());
     socket.emit('banker', getBanker());
-    socket.emit('bank-total', getBankTotal());
+    socket.emit('bank-total', {
+        total: getBankTotal(),
+        language: getLanguage() 
+    });
 }

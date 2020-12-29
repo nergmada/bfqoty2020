@@ -1,0 +1,16 @@
+export {default as arabic} from './arabic.mp3';
+export {default as australian} from './australian.mp3';
+export {default as azerbaijani} from './azerbaijani.mp3';
+export {default as buzz} from './buzz.mp3';
+export {default as coocooclock} from './coo-coo-clock.mp3';
+export {default as english} from './english.mp3';
+export {default as howling} from './howling.mp3';
+export {default as hyena} from './hyena-laugh.mp3';
+export {default as mandarin} from './mandarin.mp3';
+export {default as moo} from './moo.mp3';
+export {default as quack} from './quack.mp3';
+export {default as ship} from './ship-horn.mp3';
+export {default as spanish} from './spanish.mp3';
+export {default as tada} from './tada.mp3';
+export {default as toilet} from './toilet.mp3';
+export {default as witch} from './witch-cackle.mp3';

@@ -14,3 +14,6 @@ export const getBankTier = () => get(bankTier);
 
 export const bankTotal = writable(0);
 export const getBankTotal = () => get(bankTotal);
+
+export const language = writable('english');
+export const getLanguage = () => get(language);

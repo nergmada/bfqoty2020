@@ -1,5 +1,6 @@
 <script>
     import {player} from 'lib/store';
+    import * as assets from 'assets';
     $: bankTier = 0;
     $: amBanker = false;
     $: bankTotal = 0;
@@ -11,8 +12,10 @@
     $player.addListener('new-banker', name => {
         amBanker = $player.getName() == name;
     })
-    $player.addListener('bank-total', total => {
-        bankTotal = total;
+    $player.addListener('bank-total', data => {
+        bankTotal = data.total;
+        const audio = new Audio(assets[data.language]);
+        if (bankTotal != 0) audio.play();
     })
 </script>
 
