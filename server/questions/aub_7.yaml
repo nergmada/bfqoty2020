@@ -1,0 +1,10 @@
+question: "Ruth Badar Ginsburg passed away in 2020. She was the ____ woman to be on the US Supreme Court" #Text that will appear on screen
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: Aubrey's General Knowledge #Round title, this should be the same for all questions
+points: 1.25 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - 2nd
+  - 1st
+  - 4th
+  - 3rd
+answer: 2nd #the correct answer, should be the same as an option

@@ -1,0 +1,6 @@
+question: Which solo female artist received the most Grammy nominations this year?
+images: []
+questionType: buzz #The question type (multichoice, written, buzz)
+round: The __20s #Round title, this should be the same for all questions
+points: 2 #The value of the round (this can be a decimal)
+answer: Lizzo #the correct answer, should be the same as an option

@@ -1,0 +1,7 @@
+question: Fill in the blank
+images:
+  - /assets/questions/ada_4_q.jpg
+questionType: buzz #The question type (multichoice, written, buzz)
+round: Guess that Headline #Round title, this should be the same for all questions
+points: 2.5 #The value of the round (this can be a decimal)
+answer: Nose #the correct answer, should be the same as an option

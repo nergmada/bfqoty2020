@@ -1,0 +1,12 @@
+question: "graph #5" #Text that will appear on screen
+images: 
+  - /assets/questions/enr_5.png
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: Graphs of 2020 #Round title, this should be the same for all questions
+points: 2 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - Sales for Started from the bottom by Drake
+  - My blood pressure since March
+  - Total amount of ml of olive oil drank by Australian man (in seconds)
+  - y=mx+b
+answer: Total amount of ml of olive oil drank by Australian man (in seconds) #the correct answer, should be the same as an option

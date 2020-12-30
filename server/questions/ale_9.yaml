@@ -1,0 +1,6 @@
+question: At the beginning of a game of chess, how many legal moves are there (for the first player)?
+images: []
+questionType: buzz #The question type (multichoice, written, buzz)
+round: The __20s #Round title, this should be the same for all questions
+points: 2 #The value of the round (this can be a decimal)
+answer: 20 #the correct answer, should be the same as an option

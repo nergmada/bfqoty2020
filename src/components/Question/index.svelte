@@ -10,6 +10,7 @@
 
     $player.addListener('question', (data) => {
         currentQuestion = data;
+        console.log(data);
     })
 
     const submitted = () => {
@@ -22,6 +23,9 @@
     {#if currentQuestion && currentQuestion.questionType && currentQuestion.question}
         <h2>
             {currentQuestion.question}
+            {#each currentQuestion.images as image}
+                <img src={image} alt="lol this didn't load" />
+            {/each}
         </h2>
         {#if currentQuestion.questionType == 'multichoice'}
             <Multichoice 
@@ -51,5 +55,9 @@
         background-color: #0000006c;
         padding: 20px;
         border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    img {
+        width: 100%;
     }
 </style>

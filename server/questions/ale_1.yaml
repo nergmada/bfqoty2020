@@ -1,0 +1,11 @@
+question: "Which one of the following was founded in 1820?" #Text that will appear on screen
+images: []
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: The __20s #Round title, this should be the same for all questions
+points: 1 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - Astronomical society of London
+  - Boxing society of London
+  - Working men’s club of London
+  - The orchid society of London
+answer: Astronomical society of London #the correct answer, should be the same as an option

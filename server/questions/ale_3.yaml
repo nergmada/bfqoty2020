@@ -1,0 +1,7 @@
+question: > 
+  If you had purchased one share of Coca-Cola in 1920, you’d now have how much money?
+images: []
+questionType: buzz #The question type (multichoice, written, buzz)
+round: The __20s #Round title, this should be the same for all questions
+points: 1 #The value of the round (this can be a decimal)
+answer: between 5 and 10 million dollars #the correct answer, should be the same as an option

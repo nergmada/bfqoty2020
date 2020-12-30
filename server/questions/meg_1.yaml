@@ -1,0 +1,6 @@
+question: How many prizes did the show win in total?
+images: []
+questionType: buzz #The question type (multichoice, written, buzz)
+round: Meg's Buzzer Beaters #Round title, this should be the same for all questions
+points: 1 #The value of the round (this can be a decimal)
+answer: 9 awards #the correct answer, should be the same as an option

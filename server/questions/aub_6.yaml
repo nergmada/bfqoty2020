@@ -1,0 +1,10 @@
+question: "How many people protested?" #Text that will appear on screen
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: Aubrey's General Knowledge #Round title, this should be the same for all questions
+points: 1.25 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - 1 to 3 million
+  - 4 to 6 million
+  - 8 to 12 million
+  - 15 to 26 million
+answer: 15 to 26 million #the correct answer, should be the same as an option

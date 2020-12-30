@@ -1,0 +1,10 @@
+question: On the 12th Date of Christmas  #Text that will appear on screen
+images:
+  - /assets/questions/mar_1.jpg
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: That's a Christmas to me #Round title, this should be the same for all questions
+points: 1 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - Real
+  - Fake
+answer: Real #the correct answer, should be the same as an option

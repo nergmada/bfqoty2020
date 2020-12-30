@@ -1,0 +1,7 @@
+question: "graph #6" #Text that will appear on screen
+images: 
+  - /assets/questions/enr_6.jpg
+questionType: written #The question type (multichoice, written, buzz)
+round: Graphs of 2020 #Round title, this should be the same for all questions
+points: 2 #The value of the round (this can be a decimal)
+answer: Unknown #the correct answer, should be the same as an option

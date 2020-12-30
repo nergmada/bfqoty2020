@@ -1,0 +1,12 @@
+question: "graph #2" #Text that will appear on screen
+images: 
+  - /assets/questions/enr_2.png
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: Graphs of 2020 #Round title, this should be the same for all questions
+points: 2 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - Rainy days in March
+  - Stolen Gnomes is August
+  - Episodes of Phineas and Ferb that I have watched in November
+  - Number of times I have listened to Be Honest by Jorja Smith in December (not a paid ad)
+answer: Number of times I have listened to Be Honest by Jorja Smith in December (not a paid ad) #the correct answer, should be the same as an option

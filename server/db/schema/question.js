@@ -13,6 +13,10 @@ const schema = new Schema({
             message: "Invalid question type"
         }
     },
+    images: [{
+        type: String,
+        default: []
+    }],
     round: {
         type: String,
         required: true,

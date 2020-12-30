@@ -1,0 +1,11 @@
+question: "How many space flights were there in 2020 alone?" #Text that will appear on screen
+images: []
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: Aubrey's General Knowledge #Round title, this should be the same for all questions
+points: 1.25 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - 26
+  - 114
+  - 187
+  - 79
+answer: 114 #the correct answer, should be the same as an option

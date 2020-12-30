@@ -1,0 +1,12 @@
+question: "graph #4" #Text that will appear on screen
+images: 
+  - /assets/questions/enr_4.png
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: Graphs of 2020 #Round title, this should be the same for all questions
+points: 2 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - Silhouette of ghosts
+  - Flattening the curve
+  - What would happen to the distribution of heights if we didn’t need legs anymore
+  - I Stand, I Sit, that is all
+answer: Flattening the curve #the correct answer, should be the same as an option

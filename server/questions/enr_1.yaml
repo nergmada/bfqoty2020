@@ -1,0 +1,12 @@
+question: "graph #1" #Text that will appear on screen
+images: 
+  - /assets/questions/enr_1.png
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: Graphs of 2020 #Round title, this should be the same for all questions
+points: 2 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - Adam's Rating of Numbers
+  - How many months until the 2020 American elections at every month of the year
+  - My mood through colours during every month of the year
+  - My height as time goes on (time scale unknown)
+answer: How many months until the 2020 American elections at every month of the year #the correct answer, should be the same as an option

@@ -1,0 +1,6 @@
+question: What do CERB and CESB stand for?
+images: []
+questionType: buzz #The question type (multichoice, written, buzz)
+round: Meg's Buzzer Beaters #Round title, this should be the same for all questions
+points: 2 #The value of the round (this can be a decimal)
+answer: Canadian Emergency Response Benefit + Canada Emergency Student Benefit #the correct answer, should be the same as an option

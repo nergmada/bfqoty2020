@@ -1,0 +1,6 @@
+question: The Canadian National Exhibition, like many other popular crowd-gathering events, closed this year, for the first time since when?
+images: []
+questionType: buzz #The question type (multichoice, written, buzz)
+round: Meg's Buzzer Beaters #Round title, this should be the same for all questions
+points: 1 #The value of the round (this can be a decimal)
+answer: The Second World War #the correct answer, should be the same as an option

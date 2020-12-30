@@ -1,0 +1,8 @@
+question: Fill in the blank
+images:
+  - /assets/questions/ada_3.jpg
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: Guess that Headline #Round title, this should be the same for all questions
+points: 0 #The value of the round (this can be a decimal)
+options: []
+answer: (answer) Jab, Leap for all of us #the correct answer, should be the same as an option

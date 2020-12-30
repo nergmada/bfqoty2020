@@ -1,0 +1,15 @@
+question: > 
+  As the story is told, it was Colonel Johnson who on September 26, 1820 once and for all 
+  proved _______ non-poisonous and safe for consumption. He stood on the steps of the Salem 
+  courthouse and bravely consumed a bunch of ______s without keeling over or suffering any 
+  ill effects whatsoever. 
+images: []
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: The __20s #Round title, this should be the same for all questions
+points: 1 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - Pineapple
+  - Potato
+  - Tomato
+  - Lime
+answer: Tomato #the correct answer, should be the same as an option
