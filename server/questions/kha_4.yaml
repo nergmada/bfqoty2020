@@ -1,0 +1,11 @@
+question: What's the last line to the famous Queen song "We are the champions"?  #Text that will appear on screen
+images: []
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: Khalil's Questions #Round title, this should be the same for all questions
+points: 2.5 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - "We are the champions, we are the champions"
+  - "No time for losers, 'cause we are the champions"
+  - "'cause we are the champions, of the world"
+  - "We are the champions, my friends"
+answer: "'cause we are the champions, of the world" #the correct answer, should be the same as an option

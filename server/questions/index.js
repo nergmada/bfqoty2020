@@ -53,6 +53,11 @@ import ada_a_3 from './ada_3_a.yaml';
 import ada_q_4 from './ada_4.yaml';
 import ada_a_4 from './ada_4_a.yaml';
 
+import kna_q_1 from './kha_1.yaml';
+import kna_q_2 from './kha_2.yaml';
+import kna_q_3 from './kha_3.yaml';
+import kna_q_4 from './kha_4.yaml';
+
 
 export default [
     enrique_q_1, 
@@ -108,5 +113,10 @@ export default [
     ada_q_3,
     ada_a_3,
     ada_q_4,
-    ada_a_4
+    ada_a_4,
+
+    kna_q_1,
+    kna_q_2,
+    kna_q_3,
+    kna_q_4,
 ];
