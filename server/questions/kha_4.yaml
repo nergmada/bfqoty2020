@@ -8,4 +8,4 @@ options: #possible options (only applies to multichoice)
   - "No time for losers, 'cause we are the champions"
   - "'cause we are the champions, of the world"
   - "We are the champions, my friends"
-answer: "'cause we are the champions, of the world" #the correct answer, should be the same as an option
+answer: "No time for losers, 'cause we are the champions" #the correct answer, should be the same as an option

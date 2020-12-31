@@ -8,4 +8,4 @@ options: #possible options (only applies to multichoice)
   - 50lbs/22.7kg
   - 60lbs/27.2kg
   - 40lbs/18.2kg
-answer: 40lbs/18.2kg #the correct answer, should be the same as an option
+answer: 75lbs/34kg #the correct answer, should be the same as an option

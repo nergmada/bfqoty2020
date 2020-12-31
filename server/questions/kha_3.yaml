@@ -6,4 +6,4 @@ points: 2.5 #The value of the round (this can be a decimal)
 options: #possible options (only applies to multichoice)
   - "Yes"
   - "No"
-answer: "Yes" #the correct answer, should be the same as an option
+answer: "N" #the correct answer, should be the same as an option
