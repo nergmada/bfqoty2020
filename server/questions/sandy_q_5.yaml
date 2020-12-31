@@ -1,0 +1,6 @@
+question: How much did Elon Musk's net worth go up in 2020? (Get angry) #Text that will appear on screen
+questionType: written #The question type (multichoice, written, buzz)
+round: A year of Elon Musk #Round title, this should be the same for all questions
+points: 3 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+answer:  $100.3 (as of end of Nov) #the correct answer, should be the same as an option

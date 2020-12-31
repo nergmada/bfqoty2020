@@ -1,0 +1,5 @@
+question: Hear your buzzer
+questionType: buzz #The question type (multichoice, written, buzz)
+round: Introduction #Round title, this should be the same for all questions
+points: 0 #The value of the round (this can be a decimal)
+answer: No correct answer #the correct answer, should be the same as an option

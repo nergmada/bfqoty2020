@@ -1,0 +1,8 @@
+question: Did Elon Musk Tweet This? "The brain is the only organ that named itself." #Text that will appear on screen
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: A year of Elon Musk #Round title, this should be the same for all questions
+points: 1 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - "True"
+  - "False"
+answer: "False" #the correct answer, should be the same as an option

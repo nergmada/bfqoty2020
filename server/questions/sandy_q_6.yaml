@@ -1,0 +1,6 @@
+question: Elon Musk is buidling a city in Mars... What is the name of the currency to be used? #Text that will appear on screen
+questionType: written #The question type (multichoice, written, buzz)
+round: A year of Elon Musk #Round title, this should be the same for all questions
+points: 3 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+answer:  Marscoin (a cryptocurrency inspired by dogecoin) #the correct answer, should be the same as an option

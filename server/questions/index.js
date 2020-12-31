@@ -58,6 +58,15 @@ import kna_q_2 from './kha_2.yaml';
 import kna_q_3 from './kha_3.yaml';
 import kna_q_4 from './kha_4.yaml';
 
+import san_q_1 from './sandy_q_1.yaml';
+import san_q_2 from './sandy_q_2.yaml';
+import san_q_3 from './sandy_q_3.yaml';
+import san_q_4 from './sandy_q_4.yaml';
+import san_q_5 from './sandy_q_5.yaml';
+import san_q_6 from './sandy_q_6.yaml';
+
+import example from './example.yaml';
+
 
 export default [
     enrique_q_1, 
@@ -119,4 +128,12 @@ export default [
     kna_q_2,
     kna_q_3,
     kna_q_4,
+
+    san_q_1,
+    san_q_2,
+    san_q_3,
+    san_q_4,
+    san_q_5,
+    san_q_6,
+    example
 ];

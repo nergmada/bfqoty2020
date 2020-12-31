@@ -1,0 +1,8 @@
+question: Did Elon Musk Tweet This? "Congratulations @SpaceX on making 2020 an groundbreaking year for space exploration! " #Text that will appear on screen
+questionType: multichoice #The question type (multichoice, written, buzz)
+round: A year of Elon Musk #Round title, this should be the same for all questions
+points: 1 #The value of the round (this can be a decimal)
+options: #possible options (only applies to multichoice)
+  - "True"
+  - "False"
+answer: "False" #the correct answer, should be the same as an option
