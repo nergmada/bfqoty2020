@@ -1,5 +1,6 @@
 <script>
     import Title from 'components/Title';
+    import Question from 'components/Question';
     import Questions from 'components/Questions';
     import Leaderboard from 'components/Leaderboard.svelte';
     import Bank from 'components/Bank.svelte';
@@ -22,6 +23,7 @@
     </div>
     <div id="question">
         <Questions />
+        <Question />
     </div>
     <div id="leaderboard">
         <Leaderboard />

@@ -10,7 +10,6 @@
 
     $player.addListener('question', (data) => {
         currentQuestion = data;
-        console.log(data);
     })
 
     const submitted = () => {

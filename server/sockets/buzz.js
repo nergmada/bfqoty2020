@@ -3,7 +3,7 @@ import { get } from 'svelte/store';
 
 const sounds = {
     'aleks': 'coocooclock',
-    'shayagi': 'hyena',
+    'kc': 'hyena',
     'enrique': 'toilet',
     'sandy': 'quack',
     'aubrey': 'witch',

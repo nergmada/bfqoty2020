@@ -29,6 +29,7 @@ export async function addAnswerForPlayer(name, qId, answer, correct = null) {
 
 export async function getBanker() {
     const players = await Player.find();
+    if (players.length == 0) return '';
     const index = Math.round(Math.random() * (players.length - 0.51))
     return players[index].name;
 }
